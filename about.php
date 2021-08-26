@@ -20,7 +20,9 @@ require("./inc/library.php")
         <div class="row">
             
             <div class="col-12 text-center">
-               
+            <p>
+                    <?=nl2br(readAllTxt("./assets/about/content.txt"));?>
+                </p>
             </div>
         </div>
     </div>

@@ -1,0 +1,6 @@
+firstname: Thierry
+name: demort
+email: ju@te.partout
+phone: 0679451872
+message: Bla bla ! kipo!
+accept: on

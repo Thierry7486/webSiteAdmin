@@ -14,7 +14,7 @@ require("./inc/library.php")
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1>Home, Hello PHP !</h1>
+                <h1 class="text-info text-center">Home, Hello PHP !</h1>
             </div>
         </div>
         <div class="row">
@@ -22,7 +22,7 @@ require("./inc/library.php")
                 <img src="./assets/images/home<?=rand(1, 3)?>.jpeg" alt="Random Image" class="img-fluid" width="100%">
             </div>
             <div class="col-12 col-md-6">
-                <p>
+                <p class="text-info text-center">
                     <?=nl2br(readAllTxt("./assets/home/content.txt"));?>
                 </p>
             </div>

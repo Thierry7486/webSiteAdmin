@@ -12,6 +12,9 @@
           <a class="nav-link <?php if (strpos($_SERVER["PHP_SELF"],"index")) echo "active" ?>" href="./index.php">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link <?php if (strpos($_SERVER["PHP_SELF"],"posts")) echo "active" ?>" href="./posts.php">Posts</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link <?php if (strpos($_SERVER["PHP_SELF"],"gallery")) echo "active" ?>" href="./gallery.php">Gallery</a>
         </li>
         <li class="nav-item">

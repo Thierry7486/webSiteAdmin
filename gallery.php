@@ -1,5 +1,6 @@
 <?php
-require("./inc/library.php")
+require("./inc/library.php");
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -8,16 +9,17 @@ require("./inc/library.php")
     <title>Gallery - Hello, PHP!</title>
 </head>
 <body>
+    
     <!-- NavBar -->
     <?php include("./parts/navbar.php") ?>
     <!-- End NavBar -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1>Gallery,</h1>
+                <h1 class="<?= $imageRandom==="home3.jpeg" ? "text-info" : "" ?> text-center">Gallery</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
             <?php
             // récupération du contenu du dossier scandir() est une fonction qui scanne un dossier et qui retourne un tableau
             $dossier = './assets/gallery/';
@@ -53,7 +55,12 @@ require("./inc/library.php")
         </div>
     </div>
     <!-- Footer -->
-    <?php include("./parts/footer.php") ?>
+
+    <?php 
+    
+    include("./parts/footer.php");
+    
+     ?>
     <!-- End Footer -->
 </body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+$img = "home".rand(1,3).".jpeg";
 // Fonction de logout()
 function logOut(){
     header('HTTP/1.0 401 Unauthorized');

@@ -25,20 +25,20 @@ if (!empty($_POST)){
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1>Contact Us !</h1>
+                <h1 class="text-info text-center">Contact Us !</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <p>
+                <p class="text-info text-center">
                     <?= nl2br(readAllTxt("./assets/contact/content.txt")); ?>
                 </p>
             </div>
         </div>
         <div class="row p-3">
-            <h3>Please feel free to fill out the form ...</h3>
+            <h3 class="text-info text-center">Please feel free to fill out the form ...</h3>
             <!-- FORM -->
-            <form class="row g-3 border" action="" method="POST">
+            <form class="row g-3 border bg-light" action="" method="POST">
                 <div class="col-md-6">
                     <label for="firstname" class="form-label">Firstname</label>
                     <input type="text" class="form-control" id="firstname" name="firstname" required>

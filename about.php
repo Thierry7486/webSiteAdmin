@@ -14,13 +14,13 @@ require("./inc/library.php")
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1>About, Hello PHP !</h1>
+                <h1 class="text-info text-center my-4">About, Hello PHP !</h1>
             </div>
         </div>
         <div class="row">
             
             <div class="col-12 text-center">
-            <p>
+            <p class="text-info text-center">
                     <?=nl2br(readAllTxt("./assets/about/content.txt"));?>
                 </p>
             </div>
